@@ -5,8 +5,8 @@ set -xe
 . /usr/local/bin/set_env
 
 # Clones the public git repo and checkout to a branch
-git clone ${PLUGIN_REPO_URL} .
-git checkout ${PLUGIN_BRANCH}
+# git clone ${PLUGIN_REPO_URL} .
+# git checkout ${PLUGIN_BRANCH}
 
 # Install Wrangler
 npm install -g wrangler --unsafe-perm=true
