@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.16@sha256:1eabdb1aa3f6e68558c08501572731db560d10c2194a67d3417103b0a9868693
+FROM node:lts-alpine3.16@sha256:f3299f16246c71ab8b304d6745bb4059fa9283e8d025972e28436a9f9b36ed24
 
 # Copies the clone script to the Docker image
 COPY deploy.sh /usr/local/bin/
